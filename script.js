@@ -15,7 +15,7 @@ const login = (e)=>{
     for (let index = 0; index < arr.length; index++) {
         if (arr[index].name==name && arr[index].password==password) {
             alert("User login successful")
-         window.location.href="quiz.html"
+         window.location="quiz.html"
             return;
         }
         else if (arr[index].name==name && arr[index].password!=password) {
